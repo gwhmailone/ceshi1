@@ -1,0 +1,8 @@
+[2023-01-05 20:42:17 .22374400 +08:00] ERROR system
+array (
+  0 => 'Error',
+  1 => 8,
+  2 => 'Undefined index: ZC_PIC_REGEX',
+  3 => '/var/www/html/zblog/zb_users/plugin/STACentre/main.php',
+  4 => 224,
+)

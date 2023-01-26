@@ -1,0 +1,94 @@
+.Jz52_imgmask textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.Jz52_imgmask img {
+	margin-bottom: 1rem;
+}
+.Jz52_imgmask .imgy p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.2rem
+}
+.Jz52_imgmask .file {
+  position: relative;
+  display: inline-block;
+  background: #f1404b;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: .375rem 1rem;
+  overflow: hidden;
+  color: #fff !important;
+  text-decoration: none;
+  text-indent: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.Jz52_imgmask .file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  height: 100%
+}
+.Jz52_imgmask .file:hover {
+  background: #222831;
+  border-color: #222831;
+  color: #fff;
+  text-decoration: none
+}
+.Jz52_imgmask label {
+  display: none
+}
+h3.Jz52_imgmaskh3 {
+  margin: 25px 0!important;
+  color: #444!important;
+  font-weight: 700!important;
+  padding: 10px 0 10px 10px!important;
+  border-left: 5px solid #FF3657!important;
+  font-size: 22px!important;
+  line-height: 20px!important;
+  background-color: #f6f6f6!important;
+}
+.Jz52_imgmask-textarea textarea {
+  border-radius: 3px;
+  text-indent: 5px;
+  margin: 0 0 20px 0;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ddd;
+  background: #fff;
+  -webkit-appearance: none;
+  font-size: 14px;
+}
+.Jz52_imgmask-submit {
+  text-align: right;
+}
+.Jz52_imgmask-submit input {
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  color: #fff!important;
+  background-color: #f1404b;
+  border-color: #f1404b;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent!important;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.Jz52_imgmask-submit input:hover {
+  color: #fff!important;
+  background-color: #222831;
+  border-color: #222831;
+}

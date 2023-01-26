@@ -1,0 +1,8 @@
+[2022-12-02 17:57:43 .84788200 +08:00] ERROR system
+array (
+  0 => 'Exception',
+  1 => '启用该应用，需要先停用冲突应用 <b>Neditor编辑器</b> ',
+  2 => 0,
+  3 => '/var/www/html/zblog/zb_system/function/lib/zblogphp.php',
+  4 => 3904,
+)

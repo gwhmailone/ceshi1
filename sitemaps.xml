@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<sitemapindex>
+		<sitemap>
+			<loc>http://www.hoststest.com/sitemap_article_1.xml</loc>
+			<lastmod>2022-04-17</lastmod>
+		</sitemap>
+		<sitemap>
+			<loc>http://www.hoststest.com/sitemap_page_1.xml</loc>
+			<lastmod>2022-04-17</lastmod>
+		</sitemap>
+		<sitemap>
+			<loc>http://www.hoststest.com/sitemap_cate_1.xml</loc>
+			<lastmod>2022-04-17</lastmod>
+		</sitemap>
+		<sitemap>
+			<loc>http://www.hoststest.com/sitemap_tag_1.xml</loc>
+			<lastmod>2022-04-17</lastmod>
+		</sitemap>
+	</sitemapindex>

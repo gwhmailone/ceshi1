@@ -1,0 +1,13 @@
+<li class="{$id}-item">
+{if $id!=="link"}
+	<a href="{$item.href}" target="{$item.target}" title="{$item.title}" rel="external nofollow">{$item.ico}{$item.text}</a>
+	{if count($item.subs)}
+	<ul>{foreach $item.subs as $item}{template:lm-module-defend}{/foreach}</ul>
+	{/if}
+{else}
+	<a href="{$item.href}" target="{$item.target}" title="{$item.title}">{$item.ico}{$item.text}</a>
+	{if count($item.subs)}
+	<ul>{foreach $item.subs as $item}{template:lm-module-defend}{/foreach}</ul>
+  {/if}
+{/if}
+</li>

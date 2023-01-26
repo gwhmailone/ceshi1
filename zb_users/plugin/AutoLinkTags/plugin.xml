@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>AutoLinkTags</id>
+<name>正文标签自动内链</name>
+<url>http://www.toyean.com/post/autolinktags.html</url>
+<note>匹配文章中存在的标签自动添加链接，利于SEO！</note>
+<description>Copyright 2010-2020 拓源网 版权所有</description>
+<path>main.php?act=base</path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>toyean</name>
+  <email>toyean@qq.com</email>
+  <url>http://www.toyean.com/</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151740</adapted>
+<version>1.1</version>
+<pubdate>2017-11-13</pubdate>
+<modified>2020-06-10</modified>
+<price>0</price>
+<phpver>5.2</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+  <sidebar6></sidebar6>
+  <sidebar7></sidebar7>
+  <sidebar8></sidebar8>
+  <sidebar9></sidebar9>
+</sidebars>
+</plugin>

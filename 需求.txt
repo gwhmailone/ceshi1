@@ -1,0 +1,18 @@
+1、修改文章编辑中的图片上传功能，添加title标题、修改alt（描述）设置过后，会自动获取数据库内容，不再重新加载默认值。
+2、添加图片链接由真实地址（http://www.wode.com/zb_users/theme/tpure/style/images/banner.jpg）改为短链接，隐藏真实后台地址。
+
+
+
+
+
+1、修改“zb_users/plugin/Neditor/dialogs/image/image.html”的67行（<span><textarea class="text" id="title" cols="30" rows="3"></textarea></span>）为“<span><input class="text" type="text" id="title"/></span>”。
+实现功能：插入图片的“title”和“alt”都可以自定义名称，且编辑时打开不重置。
+
+
+
+2、添加数据库“ZC_PIC_REGEX”作为图片伪静态的数据储存，添加“zb_users/plugin/STACentre/main.php”文件
+
+
+
+
+标记pictag，footerad
